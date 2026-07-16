@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"C:/Users/seohg/AppData/Local/Temp/claude/c--Users-seohg-OneDrive-------2026-seoul-datalob-contest-store-name-1525-code/d2acae21-53a9-4be6-a3ca-5b99dbdbbd5e/scratchpad/step2.py\")",
+      "Bash(python \"C:/Users/seohg/AppData/Local/Temp/claude/c--Users-seohg-OneDrive-------2026-seoul-datalob-contest-store-name-1525-code/d2acae21-53a9-4be6-a3ca-5b99dbdbbd5e/scratchpad/check_build_fields.py\")",
+      "Bash(python \"C:/Users/seohg/AppData/Local/Temp/claude/c--Users-seohg-OneDrive-------2026-seoul-datalob-contest-store-name-1525-code/d2acae21-53a9-4be6-a3ca-5b99dbdbbd5e/scratchpad/step3.py\")",
+      "Bash(python \"C:/Users/seohg/AppData/Local/Temp/claude/c--Users-seohg-OneDrive-------2026-seoul-datalob-contest-store-name-1525-code/d2acae21-53a9-4be6-a3ca-5b99dbdbbd5e/scratchpad/check_pnu_consistency.py\")",
+      "Bash(python \"C:/Users/seohg/AppData/Local/Temp/claude/c--Users-seohg-OneDrive-------2026-seoul-datalob-contest-store-name-1525-code/d2acae21-53a9-4be6-a3ca-5b99dbdbbd5e/scratchpad/step3_redo.py\")",
+      "Bash(python \"C:/Users/seohg/AppData/Local/Temp/claude/c--Users-seohg-OneDrive-------2026-seoul-datalob-contest-store-name-1525-code/d2acae21-53a9-4be6-a3ca-5b99dbdbbd5e/scratchpad/step4.py\")",
+      "Bash(jupyter nbconvert *)",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('0_dfs_all.ipynb', encoding='utf-8'\\)\\); print\\(len\\(nb['cells']\\)\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python pnu_debug2.py)"
+    ]
+  }
+}
