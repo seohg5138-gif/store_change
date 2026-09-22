@@ -95,3 +95,7 @@ print("\n=== 구별 평균 공실률 (자주 바뀌는 위치가 속한 상권 �
 print(gu_summary.round(4))
 gu_summary.to_csv("23_gu_vacancy_summary.csv", encoding="utf-8-sig")
 print("저장 완료: 23_gu_vacancy_summary.csv")
+
+dup = district_baseline["TRDAR_CD"].value_counts()
+print("중복된 TRDAR_CD 수:", (dup > 1).sum())
+print(dup[dup > 1].head(10))
